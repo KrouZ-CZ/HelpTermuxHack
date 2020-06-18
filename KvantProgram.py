@@ -1,5 +1,6 @@
 print("Сделанно KvantGD гайд на канале")
-print ("")
+print("Ссылка на гайд: https://youtu.be/xC73V6Iem9Y")
+print("")
 print("[1]aoihttp-doser - для dos")
 print("[2]b0mb3r - для спама смс")
 print("[3]YTDownload - СКАЧАТЬ ВИДЕО ИЗ ЮТУБА")
