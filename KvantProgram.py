@@ -184,7 +184,7 @@ if a==25 :
 if a==26 :
  print("apt update
 && apt install git -y
-&& git clone https://github.com/DarkGa/TermGuard && cd TermGuard
+&& cd && git clone https://github.com/DarkGa/TermGuard && cd TermGuard
 && bash install.sh
 && cd")
  print("Запустить:")
