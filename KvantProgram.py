@@ -171,7 +171,7 @@ if a==23 :
 	print("Запустить:")
 	print("cd && cd smsham && python smsham.py")
 if a==24 :
-	print("pkg update && pkg upgrade - && apt install git -y && cd && git clone https://github.com/saydog/termux-fakeroot && cd termux-fakeroot && chmod +x setup && ./setup && cd")
+	print("pkg update && pkg upgrade -y && apt install git -y && cd && git clone https://github.com/saydog/termux-fakeroot && cd termux-fakeroot && chmod +x setup && ./setup && cd")
 	print("")
 	print("Запустить:")
 	print("root su")
