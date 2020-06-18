@@ -187,4 +187,4 @@ if a==26 :
  print("Запустить:")
  print ("tguard -h")
 if a==27 :
- print("cd && rm -rf HelpTermuxHack && git clone https://github.com/KvantPro/HelpTermuxHack && cd HelpTermuxHack && python KvantProgram.py")
+ print("cd && rm -rf HelpTermuxHack && git clone https://github.com/KvantPro/HelpTermuxHack && cd HelpTermuxHack && clear && python KvantProgram.py")
