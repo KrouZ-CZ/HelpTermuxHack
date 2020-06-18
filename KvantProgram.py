@@ -1,3 +1,4 @@
+print("Сделанно KvantGD гайд на канале")
 ﻿print("                           Выберете программу")
 print("[1]aoihttp-doser - для dos")
 print("[2]b0mb3r - для спама смс")
