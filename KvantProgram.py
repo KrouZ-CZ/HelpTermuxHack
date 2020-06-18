@@ -25,6 +25,8 @@ print("[22]Sherlock - пробив инфы про номеру и многое 
 print("[23]SmsHam - смс бомбер")
 print("[24]termux-faceroot - фейковые root-права")
 print("[25]Termux-login - поставить пароль на Termux")
+print("[26]TermGuard - антивирус в termux")
+print("[27]Обновить утелиту")
 a=int(input("Введите немер программы: "))
 print("")
 print("")
@@ -179,3 +181,13 @@ if a==24 :
 if a==25 :
 	print("apt update && apt install git -y && apt install python -y && cd && git clone https://github.com/Ublimjo/Termux-login && cd Termux-login && bash setup.sh")
 	print("")
+if a==26 :
+ print("apt update
+&& apt install git -y
+&& git clone https://github.com/DarkGa/TermGuard && cd TermGuard
+&& bash install.sh
+&& cd")
+ print("Запустить:")
+ print ("tguard -h")
+if a==27 :
+ print("cd && rm -rf HelpTermuxHack && git clone https://github.com/KvantPro/HelpTermuxHack && cd HelpTermuxHack && python KvantProgram.py")
