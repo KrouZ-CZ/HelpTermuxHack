@@ -182,11 +182,7 @@ if a==25 :
 	print("apt update && apt install git -y && apt install python -y && cd && git clone https://github.com/Ublimjo/Termux-login && cd Termux-login && bash setup.sh")
 	print("")
 if a==26 :
- print("apt update
-&& apt install git -y
-&& cd && git clone https://github.com/DarkGa/TermGuard && cd TermGuard
-&& bash install.sh
-&& cd")
+ print("apt update && apt install git -y && cd && git clone https://github.com/DarkGa/TermGuard && cd TermGuard && bash install.sh && cd")
  print("Запустить:")
  print ("tguard -h")
 if a==27 :
