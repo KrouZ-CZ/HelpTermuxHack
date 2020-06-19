@@ -34,7 +34,7 @@ print("[26]TermGuard - антивирус в termux")
 print("")
 print("[98]Выйти")
 print("[99]Обновить утелиту")
-a=int(input("Введите немер программы: "))
+a=int(input("Введите номер программы: "))
 clear()
 if a==1 :
 	os.system("apt update && apt upgrade -y && apt intsall git python -y && cd && git clone https://github.com/kitasS/aiohttp-doser && cd aiohttp-doser && pip install -r requirments.txt")
