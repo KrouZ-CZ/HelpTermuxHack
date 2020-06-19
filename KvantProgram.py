@@ -3,7 +3,7 @@ clear = lambda: os.system("clear")
 
 clear()
 print("Сделанно KvantGD гайд на канале")
-print("Ссылка на канал YouTube: https://youtube.com/channel/UCgOiS_SjmlVK30TmDiVgo-A")
+print("Ссылка на канал YouTube: https://www.youtube.com/channel/UCgOiS_SjmIVK30TmDiVgo-A")
 print("")
 print("[1]aoihttp-doser - для dos")
 print("[2]b0mb3r - для спама смс")
