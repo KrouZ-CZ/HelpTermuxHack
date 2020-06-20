@@ -8,7 +8,7 @@ from colorama import Fore, Back, Style
 
 clear()
 print( Fore.RED + "Сделанно KvantGD гайд на канале")
-print( Fore.WHITE + "Ссылка на канал YouTube: https://www.youtube.com/channel/UCgOiS_SjmIVK30TmDiVgo-A")
+print( Fore.WHITE + "Ссылка на Гайд: https://youtu.be/ob9Ra1v0FMU ")
 print("")
 print( Fore.CYAN + "[1]aoihttp-doser - для dos")
 print( Fore.BLUE + "[2]b0mb3r - для спама смс")
