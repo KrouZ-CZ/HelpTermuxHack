@@ -225,6 +225,7 @@ if a==99 :
     os.system("cd && rm -rf HelpTermuxHack && git clone https://github.com/KvantPro/HelpTermuxHack")
     start = "cd && cd HelpTermuxHack && clear && python KvantProgram.py"
 stat = input( Fore.YELLOW + "Запустить: (y/n)")
+print( Fore.RESET )
 if stat.lower() == "y":
 	os.system(start)
 	os.system("cd")
