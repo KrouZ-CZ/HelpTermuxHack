@@ -7,8 +7,8 @@ init()
 from colorama import Fore, Back, Style
 
 clear()
-print("Сделанно KvantGD гайд на канале")
-print("Ссылка на канал YouTube: https://www.youtube.com/channel/UCgOiS_SjmIVK30TmDiVgo-A")
+print( Fore.RED + "Сделанно KvantGD гайд на канале")
+print( Fore.WHITE + "Ссылка на канал YouTube: https://www.youtube.com/channel/UCgOiS_SjmIVK30TmDiVgo-A")
 print("")
 print( Fore.CYAN + "[1]aoihttp-doser - для dos")
 print( Fore.BLUE + "[2]b0mb3r - для спама смс")
