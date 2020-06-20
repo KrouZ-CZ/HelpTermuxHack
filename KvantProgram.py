@@ -8,9 +8,9 @@ from colorama import Fore, Back, Style
 
 clear()
 print( Fore.RED + "Сделанно KvantGD гайд на канале")
-print( Fore.WHITE + "Ссылка на Гайд: https://youtu.be/ob9Ra1v0FMU ")
+print( Fore.WHITE + "Ссылка на канал YouTube: https://www.youtube.com/channel/UCgOiS_SjmIVK30TmDiVgo-A")
 print("")
-print( Fore.CYAN + "[1]aoihttp-doser - для dos")
+print( Fore.RESET + "[1]TermGuard - антивирус в termux")
 print( Fore.BLUE + "[2]b0mb3r - для спама смс")
 print( Fore.YELLOW + "[3]YTDownload - СКАЧАТЬ ВИДЕО ИЗ ЮТУБА")
 print( Fore.CYAN + "[4]cspamvk - накрутка комментариев в VK")
@@ -35,22 +35,20 @@ print( Fore.BLUE + "[22]Sherlock - пробив инфы про номеру и 
 print( Fore.YELLOW + "[23]SmsHam - смс бомбер")
 print( Fore.GREEN + "[24]termux-faceroot - фейковые root-права")
 print( Fore.RED + "[25]Termux-login - поставить пароль на Termux")
-print( Fore.RESET + "[26]TermGuard - антивирус в termux")
-print("")
 print( Fore.YELLOW + "[98]Выйти")
 print( Fore.GREEN + "[99]Обновить утелиту")
 print( Back.WHITE )
 print( Fore.RED + "За использование утелит связанных со взломами я ответственность не несу они были представлены только в ознакомительный целях")
 print( Back.BLACK )
-print( Fore.WHITE + "                                         v1.0 release")
+print( Fore.WHITE + "                                         v1.1")
 a=int(input( Fore.MAGENTA + "Введите номер программы: "))
 print( Fore.RESET )
 clear()
 if a==1 :
-	os.system("apt update && apt upgrade -y && apt intsall git python -y && cd && git clone https://github.com/kitasS/aiohttp-doser && cd aiohttp-doser && pip install -r requirments.txt")
+	os.system("apt update && apt install git -y && cd && git clone https://github.com/DarkGa/TermGuard && cd TermGuard && bash install.sh && cd")
 	clear()
 	print("Запустить:")
-	start = "cd && cd aiohttp-doser && python dos.py"
+	start = "tguard -h"
 	print(start)
 if a==2 :
 	os.system("apt update && pkg install python -y && pkg install make -y && pkg install clang -y && pip install colorama && pip install b0mb3r")
@@ -120,7 +118,7 @@ if a==11 :
 	os.system("pkg update -y && pkg upgrade -y && pkg install python2 -y && pkg install git -y && pip2 install requests && cd && git clone https://github.com/kancotdiq/ipcs")
 	clear()
 	print("Запустить:")
-	start = "cd && cd && ipcs && python2 scan.py"
+	start = "cd && cd ipcs && python2 scan.py"
 	print(start)
 if a==12 :
 	os.system("apt update && apt install python -y && apt install git -y && cd && git clone https://github.com/maldevel/IPGeoLocation && cd IPGeoLocation && pip install -r requirements.txt")
@@ -213,19 +211,12 @@ if a==24 :
 if a==25 :
 	os.system("apt update && apt install git -y && apt install python -y && cd && git clone https://github.com/Ublimjo/Termux-login && cd Termux-login && bash setup.sh")
 	clear()
-if a==26 :
-    os.system("apt update && apt install git -y && cd && git clone https://github.com/DarkGa/TermGuard && cd TermGuard && bash install.sh && cd")
-    clear()
-    print("Запустить:")
-    start = "tguard -h"
-    print(start)
 if a==98 :
 	exit()
 if a==99 :
     os.system("cd && rm -rf HelpTermuxHack && git clone https://github.com/KvantPro/HelpTermuxHack")
     start = "cd && cd HelpTermuxHack && clear && python KvantProgram.py"
 stat = input( Fore.YELLOW + "Запустить: (y/n)")
-print( Fore.RESET )
 if stat.lower() == "y":
 	os.system(start)
 	os.system("cd")
