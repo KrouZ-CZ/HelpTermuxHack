@@ -8,5 +8,5 @@ pkg install git -y && pkg install python -y && cd && git clone https://github.co
 # Uninstall
 Откройте termux и введите эту комманду
 ```
-cd && pkg remove python -y && rm -rf HelpTermuxHack 
+cd && pkg remove python git -y && rm -rf HelpTermuxHack 
 ```
