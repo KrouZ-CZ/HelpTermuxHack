@@ -4,7 +4,7 @@ clear = lambda: os.system("clear")
 from colorama import init
 init()
 
-from coBLUElorama import Fore, Back, Style
+from colorama import Fore, Back, Style
 
 clear()
 print("Сделанно KvantGD гайд на канале")
