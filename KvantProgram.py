@@ -222,10 +222,8 @@ if a==26 :
 if a==98 :
 	exit()
 if a==99 :
-    os.system("cd && rm -rf HelpTermuxHack && git clone https://github.com/KvantPro/HelpTermuxHack && cd HelpTermuxHack && clear && python KvantProgram.py")
-
-stat = input("Запустить: (y/n)")
+    os.system("cd && rm -rf HelpTermuxHack && git clone https://github.com/KvantPro/HelpTermuxHack")
+    start == "cd HelpTermuxHack && clear && python KvantProgram.py"
+stat = input( Fore.YELLOW + "Запустить: (y/n)")
 if stat.lower() == "y":
 	os.system(start)
-else:
-	exit()
