@@ -227,4 +227,8 @@ if a==99 :
 stat = input( Fore.YELLOW + "Запустить: (y/n)")
 if stat.lower() == "y":
 	os.system(start)
+elif stat.lower() == "n"
+	exit()
+else:
+	print("Выбранна неверная операция")
 	exit()
