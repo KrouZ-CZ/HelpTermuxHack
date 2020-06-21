@@ -10,3 +10,5 @@ pkg install git -y && pkg install python -y && pip install colorama && cd && git
 ```
 cd; pip uninstall colorama; pkg remove python git -y; rm -rf HelpTermuxHack 
 ```
+# pip
+colorama
