@@ -12,3 +12,6 @@ cd; pip uninstall colorama; pkg remove python git -y; rm -rf HelpTermuxHack
 ```
 # pip
 colorama
+```
+pip install colorama
+```
