@@ -40,7 +40,7 @@ print( Fore.GREEN + "[99]Обновить утелиту")
 print( Back.WHITE )
 print( Fore.RED + "За использование утелит связанных со взломами я ответственность не несу они были представлены только в ознакомительный целях")
 print( Back.BLACK )
-print( Fore.WHITE + "                                         v1.1")
+print( Fore.WHITE + "                                         v1.2")
 a=int(input( Fore.MAGENTA + "Введите номер программы: "))
 print( Fore.RESET )
 clear()
@@ -63,7 +63,7 @@ if a==3 :
 	start = "cd YTDownload && python YTDwnload.py"
 	print(start)
 if a==4 :
-	print("apt update && apt install git -y && apt install python -y && apt install python2 && cd && git clone https://github.com/YamkaFox/cspamvk && cd cspamvk && pip install vkbee")
+	os.system("apt update && apt install git -y && apt install python -y && apt install python2 && cd && git clone https://github.com/YamkaFox/cspamvk && cd cspamvk && pip install vkbee")
 	clear()
 	print("Запустить:")
 	start = "cd && cd cspamvk && python main.py"
