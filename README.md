@@ -8,5 +8,5 @@ pkg install git -y && cd && git clone https://github.com/KvantPro/HelpTermuxHack
 # Uninstall
 Откройте termux и введите эту комманду
 ```
-cd; cd HelpTermuxHack; chmod 777 uninst.sh ./unist.sh
+cd; rm -Rf HelpTermuxHack
 ```
